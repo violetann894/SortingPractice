@@ -47,13 +47,13 @@ def merge(A, p, q, r):
     #Loop through the left side array
     for i in range(n1):
 
-        #Assign
+        #Assign the left side values of the array to the left array
         L[i] = A[p + i]
 
     #Loop through the right side array
     for j in range(n2):
 
-        #
+        #Assign the right side values of the array to the right array
         R[j] = A[q + j + 1]
 
     #Add infinity to the end of the left side array to mark the end of the array
